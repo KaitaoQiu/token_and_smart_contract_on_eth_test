@@ -38,12 +38,12 @@ Data analysis: Through data analysis tools, toasting token price fluctuations, u
 
 ## Project Plan:
 
-Week 1-2: Study the basic knowledge of Ethereum, Solidity and smart contracts.
+Week 1: Study the basic knowledge of Ethereum, Solidity and smart contracts.
 
-Week 3-4: Write tokens to create smart contracts and deploy to the Ethereum test network.
+Week 2: Write tokens to create smart contracts and deploy to the Ethereum test network.
 
-Week 5-6: Create an analog user account and write token transaction smart contracts.
+Week 3: Create an analog user account and write token transaction smart contracts.
 
-Week 7-8: The token transactions between the simulation users and the data collection is started.
+Week 4: The token transactions between the simulation users and the data collection is started.
 
-Week 9-10: Analyze data, write project reports, and summarize the results of the research.
+Week 5: Analyze data, write project reports, and summarize the results of the research.
