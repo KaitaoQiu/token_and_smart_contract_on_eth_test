@@ -7,9 +7,9 @@ App = {
 //   init: function() {
 //     // Load pets.
 //     console.log("init, getting local json file");
-//     $.getJSON('../pets.json', function(data) {
-//       var petsRow = $('#petsRow');
-//       var petTemplate = $('#petTemplate');
+//     $.getJSON('../cards.json', function(data) {
+//       var petsRow = $('#cardsRow');
+//       var petTemplate = $('#cardTemplate');
 
 //       for (i = 0; i < data.length; i ++) {
 //         petTemplate.find('.panel-title').text(data[i].name);
