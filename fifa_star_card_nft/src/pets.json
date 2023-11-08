@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "name": "Haaland",
+    "picture": "images/Ha.png",
+    "age": 23,
+    "country": "Norway",
+    "current_team": "Manchester City"
+  },
+  {
+    "id": 1,
+    "name": "Benzema",
+    "picture": "images/Be.png",
+    "age": 35,
+    "country": "France",
+    "current_team": "Al-Ittihad"
+  },
+  {
+    "id": 2,
+    "name": "Courtois",
+    "picture": "images/Co.png",
+    "age": 31,
+    "country": "Belgium",
+    "current_team": "Real Madrid"
+  },
+  {
+    "id": 3,
+    "name": "De Bruyne",
+    "picture": "images/De.png",
+    "age": 32,
+    "country": "Belgium",
+    "current_team": "Manchester City"
+  },
+  {
+    "id": 4,
+    "name": "Kane",
+    "picture": "images/Ka.png",
+    "age": 30,
+    "country": "England",
+    "current_team": "Bayern Munich"
+  },
+  {
+    "id": 5,
+    "name": "Lewandowske",
+    "picture": "images/Le.png",
+    "age": 35,
+    "county": "Poland",
+    "current_team": "Barcelona"
+  },
+  {
+    "id": 6,
+    "name": "Mbappe",
+    "picture": "images/Mb.png",
+    "age": 24,
+    "country": "France",
+    "current_team": "Paris Saint-Germain"
+  },
+  {
+    "id": 7,
+    "name": "Messi",
+    "picture": "images/Me.png",
+    "age": 36,
+    "country": "Argentina",
+    "current_team": "Inter Miami"
+  },
+  {
+    "id": 8,
+    "name": "Neymar Jr",
+    "picture": "images/Ne.png",
+    "age": 31,
+    "country": "Brazil",
+    "current_team": "Al Hilal"
+  },
+  {
+    "id": 9,
+    "name": "Salah",
+    "picture": "images/Sa.png",
+    "age": 31,
+    "country": "Egypt",
+    "current_team": "Liverpool"
+  },
+  {
+    "id": 10,
+    "name": "van Dijk",
+    "picture": "images/Va.png",
+    "age": 32,
+    "country": "Netherland",
+    "current_team": "Liverpool"
+  },
+  {
+    "id": 11,
+    "name": "Vini Jr.",
+    "picture": "images/Vi.png",
+    "age": 23,
+    "country": "Brazil",
+    "current_team": "Real Madrid"
+  }
+]
