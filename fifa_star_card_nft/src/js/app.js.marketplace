@@ -5,21 +5,21 @@ App = {
   contracts: {},
 
   init: function() {
-    // Load pets.
+    // Load cards.
     console.log("init, getting local json file");
-    $.getJSON('../pets.json', function(data) {
-      var petsRow = $('#petsRow');
-      var petTemplate = $('#petTemplate');
+    $.getJSON('../cards.json', function(data) {
+      var cardsRow = $('#cardsRow');
+      var cardTemplate = $('#cardTemplate');
 
       for (i = 0; i < data.length; i ++) {
-        petTemplate.find('.panel-title').text(data[i].name);
-        petTemplate.find('img').attr('src', data[i].picture);
-        petTemplate.find('.pet-breed').text(data[i].breed);
-        petTemplate.find('.pet-age').text(data[i].age);
-        petTemplate.find('.pet-location').text(data[i].location);
-        petTemplate.find('.btn-adopt').attr('data-id', data[i].id);
+        cardTemplate.find('.panel-title').text(data[i].name);
+        cardTemplate.find('img').attr('src', data[i].picture);
+        cardTemplate.find('.card-breed').text(data[i].breed);
+        cardTemplate.find('.card-age').text(data[i].age);
+        cardTemplate.find('.card-location').text(data[i].location);
+        cardTemplate.find('.btn-adopt').attr('data-id', data[i].id);
 
-        petsRow.append(petTemplate.html());
+        cardsRow.append(cardTemplate.html());
       }
     });
 
@@ -152,7 +152,7 @@ App = {
     //     }).then(function (adopters) {
     //         for (i = 0; i < adopters.length; i++) {
     //             if (adopters[i] !== '0x0000000000000000000000000000000000000000') {
-    //                 $('.panel-pet').eq(i).find('button').text('Success').attr('disabled', true);
+    //                 $('.panel-card').eq(i).find('button').text('Success').attr('disabled', true);
     //             }
     //         }
     //     }).catch(function (err) {
@@ -164,7 +164,7 @@ App = {
     // handleAdopt: function (event) {
     //     event.preventDefault();
 
-    //     var petId = parseInt($(event.target).data('id'));
+    //     var cardId = parseInt($(event.target).data('id'));
 
     //     var adoptionInstance;
 
@@ -178,7 +178,7 @@ App = {
     //         App.contracts.Adoption.deployed().then(function (instance) {
     //             adoptionInstance = instance;
 
-    //             return adoptionInstance.adopt(petId, { from: account });
+    //             return adoptionInstance.adopt(cardId, { from: account });
     //         }).then(function (result) {
     //             return App.markAdopted();
     //         }).catch(function (err) {
